@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Japan 2025 - Travelboyo</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; }
+    h1 { color: #2c3e50; }
+    a { color: #2980b9; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    iframe { width: 100%; height: 300px; border: none; margin: 20px 0; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Japan 2025</h1>
+  <p><a href="index.html">&larr; Back to Home</a></p>
+
+  <h2>Itinerary</h2>
+  <ul>
+    <li>Day 1: Tokyo - Shibuya, Shinjuku</li>
+    <li>Day 2: Kyoto - Fushimi Inari, Gion</li>
+    <li>Day 3: Osaka - Dotonbori, Osaka Castle</li>
+  </ul>
+
+  <h2>Google Maps Favorites</h2>
+  <!-- Example embed of Shibuya Crossing -->
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0413842571757!2d139.6982127152609!3d35.659108680199756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfaa9385d17%3A0x529f532c12d8f3c3!2sShibuya%20Crossing!5e0!3m2!1sen!2sus!4v1681500000000!5m2!1sen!2sus"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+
+  <h2>Description</h2>
+  <p>
+    Japan was an unforgettable experience! We explored vibrant cities, tasted amazing food, and soaked up rich culture.
+    Shibuya Crossing was a highlight, as was the peaceful Fushimi Inari shrine in Kyoto.
+  </p>
+</body>
+</html>
