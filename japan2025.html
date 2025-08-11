@@ -1,112 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Japan 2025 - Travelboyo</title>
-  <style>
-    body { font-family: Arial, sans-serif; max-width: 900px; margin: auto; padding: 20px; line-height: 1.6; }
-    h1, h2, h3 { color: #2c3e50; }
-    a { color: #2980b9; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    iframe { width: 100%; height: 300px; border: none; margin: 15px 0; border-radius: 8px; }
-    img { max-width: 100%; border-radius: 8px; margin: 10px 0; }
-    .day { background: #f8f9fa; padding: 10px; border-radius: 8px; margin-bottom: 15px; }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Japan 2025 - Travelboyo</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #f5f7fa;
+    color: #333;
+  }
+  h1, h2, h3 {
+    color: #1a237e;
+  }
+  a {
+    color: #1565c0;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .back-link {
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  .intro {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .map-full {
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    height: 350px;
+    width: 100%;
+  }
+  .day-card {
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 20px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+  }
+  .day-title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #283593;
+    margin-bottom: 8px;
+  }
+  .date {
+    color: #616161;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  .description {
+    margin-bottom: 15px;
+  }
+  ul {
+    margin-left: 20px;
+  }
+  iframe {
+    width: 100%;
+    height: 280px;
+    border-radius: 10px;
+    border: none;
+    margin: 15px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+  img {
+    width: 100%;
+    border-radius: 12px;
+    margin: 12px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .btn-link {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 14px;
+    background: #1565c0;
+    color: white;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(21,101,192,0.5);
+  }
+  .btn-link:hover {
+    background: #0d3c91;
+  }
+</style>
 </head>
 <body>
-  <h1>Japan 2025</h1>
-  <p><a href="index.html">&larr; Back to Home</a></p>
 
-  <h2>Overview</h2>
+<a href="index.html" class="back-link">&larr; Back to Home</a>
+
+<h1>Japan 2025 - Travelboyo</h1>
+
+<section class="intro">
   <p>
-    A 17-day journey across Japan, visiting Tokyo, Yamagata, Zao Onsen, Nagano, Nozawa, Matsumoto, Mt Fuji, and more.
-    Includes skiing, temples, hot springs, traditional experiences, and cultural sights.
+    This is my detailed travel journal of an unforgettable 17-day trip through Japan in early 2025. 
+    From the bustling streets of Tokyo to the peaceful temples of Yamagata, snowy ski slopes in Zao Onsen, and cultural experiences in Nagano and Mt Fuji, this trip is packed with adventure, relaxation, and deep cultural dives.
+  </p>
+  <p>
+    Below you’ll find the day-by-day itinerary, photos, maps, and travel links. Click any map or “Open in Google Maps” button to explore locations interactively.
   </p>
 
-  <h2>Day-by-Day Itinerary</h2>
+  <h3>Trip Route Map</h3>
+  <iframe
+    class="map-full"
+    src="https://www.google.com/maps/d/embed?mid=1g6yRfEoJw6P9m-EVqZ4SGgTgV1k&hl=en"
+    allowfullscreen>
+  </iframe>
+  <p style="font-size:0.8rem; color:#555;">*The above map shows the main stops of the trip: Tokyo → Yamagata → Zao Onsen → Nagano → Nozawa → Matsumoto → Mt Fuji → Tokyo</p>
+</section>
 
-  <div class="day">
-    <h3>29 Jan — Departure</h3>
-    <p>Leave Zurich at 14:00, direct flight (13h) → Arrive in Tokyo at 10:00 (+1 day).</p>
+<section class="day-card">
+  <div class="day-title">Day 0: 29 Jan — Departure</div>
+  <div class="date">Zurich to Tokyo (Flight)</div>
+  <div class="description">
+    Depart Zurich at 14:00 on a direct 13-hour flight. Arrive Tokyo at 10:00 (+1 day).
   </div>
+</section>
 
-  <div class="day">
-    <h3>30 Jan — Tokyo Day 1</h3>
-    <ul>
-      <li>Check in at hotel (11:00)</li>
-      <li>Visit temple near hotel</li>
-      <li><a href="https://goo.gl/maps/BbZtNf48CFs8V6fw5" target="_blank">Senso-ji Temple</a> &amp; Skytree view / Shibuya</li>
-    </ul>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Sens%C5%8D-ji_in_Tokyo.jpg" alt="Senso-ji Temple">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.873695952498!2d139.796655!3d35.714765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ec1f24c51a9%3A0x84e66da68b0108e7!2sSens%C5%8D-ji!5e0!3m2!1sen!2sjp!4v1681500000000"></iframe>
+<section class="day-card">
+  <div class="day-title">Days 1–2: 30–31 Jan — Tokyo</div>
+  <div class="date">2 nights</div>
+  <div class="description">
+    <strong>Day 1:</strong> Arrive at 10:00. Check-in at hotel by 11:00. Visit the nearby Senso-ji Temple, enjoy views from Tokyo Skytree, and explore the Shibuya crossing.
   </div>
-
-  <div class="day">
-    <h3>31 Jan — Tokyo Day 2</h3>
-    <ul>
-      <li>Shibuya crossing</li>
-      <li>13:00 Tokyo Tower</li>
-      <li>14:00 teamLab Borderless + tea</li>
-      <li>17:00 Drinks at rooftop</li>
-    </ul>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Shibuya_Crossing_2018.jpg" alt="Shibuya Crossing">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0413842571757!2d139.6982127!3d35.65910868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b57c91f04f1%3A0xa73fdbe437f7e84!2sShibuya%20Crossing!5e0!3m2!1sen!2sjp!4v1681500000000"></iframe>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Sens%C5%8D-ji_in_Tokyo.jpg" alt="Senso-ji Temple, Tokyo" />
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.873695952498!2d139.796655!3d35.714765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ec1f24c51a9%3A0x84e66da68b0108e7!2sSens%C5%8D-ji!5e0!3m2!1sen!2sjp!4v1681500000000"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+  <div class="description">
+    <strong>Day 2:</strong> Explore Shibuya crossing, visit Tokyo Tower at 13:00, then the teamLab Borderless digital art museum for a magical light show followed by tea. End with rooftop drinks at 17:00.
   </div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Shibuya_Crossing_2018.jpg" alt="Shibuya Crossing, Tokyo" />
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0413842571757!2d139.6982127!3d35.65910868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b57c91f04f1%3A0xa73fdbe437f7e84!2sShibuya%20Crossing!5e0!3m2!1sen!2sjp!4v1681500000000"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</section>
 
-  <div class="day">
-    <h3>1 Feb — Yamagata &amp; Yamadera Temple</h3>
-    <p>Shinkansen to Yamagata (2h45), 20 min train to <a href="https://goo.gl/maps/UXPdpCqvg6b7jKBr9" target="_blank">Yamadera Temple</a>.</p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Yamadera_Temple.jpg" alt="Yamadera Temple">
+<section class="day-card">
+  <div class="day-title">Day 3: 1 Feb — Tokyo to Yamagata (Yamadera Temple)</div>
+  <div class="date">Travel Day</div>
+  <div class="description">
+    Travel by Shinkansen from Tokyo to Yamagata (~2h45m). Then a 20-minute direct train to Yamadera Temple. Explore the beautiful mountain temple known for its scenic views.
   </div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Yamadera_Temple.jpg" alt="Yamadera Temple" />
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d20768.053053692613!2d139.03727892659928!3d38.34465173424466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!1m7!3m6!1s0x60188b57c91f04f1%3A0xa73fdbe437f7e84!2sShibuya%20Crossing!8m2!3d35.65910868!4d139.7005197!3m4!1s0x5f90d4d4c1a3bf5b%3A0x8a3a9ea60a985010!8m2!3d38.315141!4d140.176935"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
+  <a href="https://www.google.com/maps/dir/Shibuya+Crossing/Yamadera+Temple,+Yamagata,+Japan/" target="_blank" class="btn-link">Open Route in Google Maps</a>
+</section>
 
-  <div class="day">
-    <h3>2 Feb — Ginzan Onsen</h3>
-    <p>Day trip (1h30 each way) — <a href="https://www.hanagasa-bus-taisei.co.jp/base.html" target="_blank">Bus schedule</a></p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Ginzan_Onsen.jpg" alt="Ginzan Onsen">
+<section class="day-card">
+  <div class="day-title">Days 4–5: 2–3 Feb — Yamagata & Ginzan Onsen</div>
+  <div class="date">2 nights</div>
+  <div class="description">
+    Day trip to Ginzan Onsen, a charming hot spring town known for its historic architecture and river views. Bus ride takes about 1.5 hours each way (one change). No booking needed.
   </div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Ginzan_Onsen.jpg" alt="Ginzan Onsen" />
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3223.1257020901947!2d140.32626861523826!3d38.34982217628636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!1m7!3m6!1s0x5f90d4d4c1a3bf5b%3A0x8a3a9ea60a985010!2sGinzan+Onsen!8m2!3d38.3191821!4d140.3145166!3m4!1s0x5f90d4d4c1a3bf5b%3A0x8a3a9ea60a985010!8m2!3d38.3191821!4d140.3145166"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
+  <a href="https://www.google.com/maps/dir/Yamagata/Ginzan+Onsen/" target="_blank" class="btn-link">Open Route in Google Maps</a>
+  <p><strong>Bus info:</strong> <a href="https://www.hanagasa-bus-taisei.co.jp/base.html" target="_blank">Hanagasa Bus Schedule</a></p>
+</section>
 
-  <div class="day">
-    <h3>3–4 Feb — Zao Onsen &amp; Ski</h3>
-    <p>40 min bus to Zao Onsen — <a href="https://www.zao-spa.or.jp/english/access/" target="_blank">Bus info</a></p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Zao_Onsen.jpg" alt="Zao Onsen Ski Resort">
+<section class="day-card">
+  <div class="day-title">Day 6: 4 Feb — Zao Onsen Ski Day</div>
+  <div class="date">1 night</div>
+  <div class="description">
+    Bus from Yamagata to Zao Onsen (40 min). Spend the day skiing and enjoying the famous hot springs. Return to Yamagata in the evening by bus.
   </div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Zao_Onsen.jpg" alt="Zao Onsen Ski Resort" />
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d20384.30630680784!2d140.326142667692!3d38.19762004267369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!1m7!3m6!1s0x5f90d4d4c1a3bf5b%3A0x8a3a9ea60a985010!2sZao+Onsen!8m2!3d38.1311411!4d140.3509189!3m4!1s0x5f90d4d4c1a3bf5b%3A0x8a3a9ea60a985010!8m2!3d38.1311411!4d140.3509189"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
+  <a href="https://www.google.com/maps/dir/Yamagata/Zao+Onsen/" target="_blank" class="btn-link">Open Route in Google Maps</a>
+  <p><strong>Bus info:</strong> <a href="https://www.zao-spa.or.jp/english/access/" target="_blank">Zao Onsen Bus Access</a></p>
+</section>
 
-  <div class="day">
-    <h3>5–10 Feb — Nagano, Togakushi Shrine, Snow Monkeys, Nozawa Ski</h3>
-    <p>
-      Includes: <a href="https://visit-nagano.alpico.co.jp/timetable/nagano-togakushi-winter#weekend-timetable" target="_blank">Togakushi bus</a>,
-      <a href="https://www.snowmonkeyresorts.com/access/nagaden-express-bus-timetable/" target="_blank">Snow monkey bus</a>,
-      <a href="https://nozawaonsen.info/en/nozawa-onsen-liner/" target="_blank">Nozawa bus</a>.
-    </p>
-  </div>
-
-  <div class="day">
-    <h3>11–13 Feb — Matsumoto &amp; Mt Fuji</h3>
-    <p>Visit Matsumoto Castle, then Fuji area — <a href="https://www.jrailpass.com/blog/fuji-excursion-train" target="_blank">Fuji train</a></p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Matsumoto_Castle_in_Matsumoto%2C_Nagano%2C_Japan.jpg" alt="Matsumoto Castle">
-  </div>
-
-  <div class="day">
-    <h3>13–15 Feb — Tokyo &amp; Departure</h3>
-    <ul>
-      <li>Shinjuku</li>
-      <li>Meiji Jingu</li>
-      <li>Omotesando Hills</li>
-      <li>Shibuya</li>
-    </ul>
-    <p>Flight to Zurich: 12:00 — Arrive 18:30</p>
-  </div>
-
-  <h2>Activities</h2>
-  <ul>
-    <li>Night snowshoe</li>
-    <li>Tea ceremony</li>
-    <li>Sumo</li>
-    <li>Theater</li>
-    <li>Samurai/Ninja experience</li>
-    <li>Katana maker visit</li>
-  </ul>
-
-</body>
-</html>
+<section class="day-card">
+  <div class="day-title">Days 7–9: 5–7 Feb — Nagano & Ryokan Stay</div>
+  <
